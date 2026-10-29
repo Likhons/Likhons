@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="452" viewBox="0 0 860 452" role="img" aria-label="Terminal: whoami - Md. Wazid Hasan Likhon, Full-Stack Developer from Dhaka">
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="c1"><rect x="50" y="56" height="24" width="0"><animate attributeName="width" from="0" to="80" begin="0.4s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="50" y="118" height="24" width="0"><animate attributeName="width" from="0" to="180" begin="1.8s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="50" y="336" height="24" width="0"><animate attributeName="width" from="0" to="130" begin="4.3s" dur="0.6s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; font-size: 15px; }
+    .p { fill: #3fb950; font-weight: 700; }
+    .cmd { fill: #e6edf3; }
+    .out { fill: #e6edf3; font-weight: 700; }
+    .k { fill: #79c0ff; }
+    .s { fill: #a5d6ff; }
+    .g { fill: #8b949e; }
+    .dir { fill: #d2a8ff; font-weight: 700; }
+    .y { fill: #f2cc60; }
+  </style>
+
+  <!-- window -->
+  <rect x="2" y="2" width="856" height="448" rx="14" fill="#0d1117" stroke="url(#border)" stroke-width="2.5"/>
+  <rect x="3.5" y="3.5" width="853" height="34" rx="12" fill="#161b22"/>
+  <rect x="3.5" y="24" width="853" height="14" fill="#161b22"/>
+  <circle cx="26" cy="20" r="6.5" fill="#ff5f57"/>
+  <circle cx="48" cy="20" r="6.5" fill="#febc2e"/>
+  <circle cx="70" cy="20" r="6.5" fill="#28c840"/>
+  <text x="430" y="25" text-anchor="middle" class="g" style="font-size:13px">likhon@dhaka: ~/portfolio</text>
+
+  <!-- $ whoami -->
+  <text x="28" y="74" class="p">❯</text>
+  <text x="50" y="74" class="cmd" clip-path="url(#c1)">whoami</text>
+  <text x="28" y="102" class="out" opacity="0">Md. Wazid Hasan Likhon <tspan class="g">·</tspan> <tspan fill="#f472b6">Full-Stack Developer</tspan>
+    <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.3s" fill="freeze"/></text>
+
+  <!-- $ cat profile.json -->
+  <text x="28" y="136" class="p" opacity="0">❯<animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.1s" fill="freeze"/></text>
+  <text x="50" y="136" class="cmd" clip-path="url(#c2)">cat profile.json</text>
+
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.2s" fill="freeze"/>
+    <text x="28" y="164" class="g">{</text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.95s" dur="0.2s" fill="freeze"/>
+    <text x="28" y="190" xml:space="preserve">  <tspan class="k">"location"</tspan><tspan class="g">  : </tspan><tspan class="s">"Dhaka, Bangladesh"</tspan><tspan class="g">,</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.1s" dur="0.2s" fill="freeze"/>
+    <text x="28" y="216" xml:space="preserve">  <tspan class="k">"education"</tspan><tspan class="g"> : </tspan><tspan class="s">"B.Sc. in CSE · Daffodil International University"</tspan><tspan class="g">,</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.25s" dur="0.2s" fill="freeze"/>
+    <text x="28" y="242" xml:space="preserve">  <tspan class="k">"stack"</tspan><tspan class="g">     : [</tspan><tspan class="s">"React"</tspan><tspan class="g">, </tspan><tspan class="s">"Node.js"</tspan><tspan class="g">, </tspan><tspan class="s">"Express"</tspan><tspan class="g">, </tspan><tspan class="s">"PostgreSQL"</tspan><tspan class="g">],</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.4s" dur="0.2s" fill="freeze"/>
+    <text x="28" y="268" xml:space="preserve">  <tspan class="k">"exploring"</tspan><tspan class="g"> : [</tspan><tspan class="s">"AI"</tspan><tspan class="g">, </tspan><tspan class="s">"Machine Learning"</tspan><tspan class="g">],</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.55s" dur="0.2s" fill="freeze"/>
+    <text x="28" y="294" xml:space="preserve">  <tspan class="k">"status"</tspan><tspan class="g">    : </tspan><tspan fill="#3fb950">"open to opportunities"</tspan></text></g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.7s" dur="0.2s" fill="freeze"/>
+    <text x="28" y="320" class="g">}</text></g>
+
+  <!-- $ echo $MOTTO -->
+  <text x="28" y="354" class="p" opacity="0">❯<animate attributeName="opacity" from="0" to="1" begin="4.1s" dur="0.1s" fill="freeze"/></text>
+  <text x="50" y="354" class="cmd" clip-path="url(#c4)">echo $MOTTO</text>
+  <text x="28" y="382" class="y" opacity="0">"Building, learning and growing one commit at a time."
+    <animate attributeName="opacity" from="0" to="1" begin="5.1s" dur="0.4s" fill="freeze"/></text>
+
+  <!-- idle prompt + blinking cursor -->
+  <text x="28" y="420" class="p" opacity="0">❯<animate attributeName="opacity" from="0" to="1" begin="5.6s" dur="0.1s" fill="freeze"/></text>
+  <rect x="50" y="406" width="9" height="18" fill="#e6edf3" opacity="0">
+    <animate attributeName="opacity" values="1;0" calcMode="discrete" begin="5.6s" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
