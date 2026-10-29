@@ -79,7 +79,7 @@ timeline
 ```
 
 <!-- ═══════════════════════════ CONNECT ═══════════════════════════ -->
-<h2 align="center">🤝 Let's Build Something Amazing Together</h2>
+<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="34" align="center" alt="handshake"/> Let's Build Something Amazing Together</h2>
 
 <div align="center">
 
