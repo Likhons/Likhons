@@ -32,7 +32,7 @@
 <br/>
 
 <!-- ═══════════════════════════ TECH STACK ═══════════════════════════ -->
-<h2 align="center">🧰 Tech Arsenal</h2>
+<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" width="34" align="center" alt="toolbox"/> Tech Arsenal</h2>
 
 <div align="center">
 
@@ -50,7 +50,7 @@
 </div>
 
 <!-- ═══════════════════════════ STATS ═══════════════════════════ -->
-<h2 align="center">📊 Commit Energy</h2>
+<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="34" align="center" alt="chart"/> Commit Energy</h2>
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=Likhons&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=F472B6&currStreakLabel=22D3EE" alt="GitHub streak" width="49%"/>
@@ -67,7 +67,7 @@
 </div>
 
 <!-- ═══════════════════════════ JOURNEY ═══════════════════════════ -->
-<h2 align="center">🛤️ The Journey So Far</h2>
+<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="34" align="center" alt="rocket"/> The Journey So Far</h2>
 
 ```mermaid
 timeline
