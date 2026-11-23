@@ -16,8 +16,8 @@ Case studies: [LandLock](https://likhon.me/work/landlock) · [WAEZ](https://likh
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Likhons&card_width=880&card_height=180&border_radius=6&disable_animations=true&background=00000000&border=3D444D&stroke=3D444D&ring=73D39B&fire=73D39B&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=F0F6FC&sideLabels=F0F6FC&dates=9198A1">
-  <img src="https://streak-stats.demolab.com/?user=Likhons&card_width=880&card_height=180&border_radius=6&disable_animations=true&background=00000000&border=D1D9E0&stroke=D1D9E0&ring=1F8A4F&fire=1F8A4F&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=1F2328&sideLabels=1F2328&dates=59636E" width="100%" alt="GitHub contribution streak for Likhons: total contributions, current streak and longest streak">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Likhons&card_width=880&card_height=180&border_radius=6&background=00000000&border=3D444D&stroke=3D444D&ring=73D39B&fire=73D39B&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=F0F6FC&sideLabels=F0F6FC&dates=9198A1">
+  <img src="https://streak-stats.demolab.com/?user=Likhons&card_width=880&card_height=180&border_radius=6&background=00000000&border=D1D9E0&stroke=D1D9E0&ring=1F8A4F&fire=1F8A4F&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=1F2328&sideLabels=1F2328&dates=59636E" width="100%" alt="GitHub contribution streak for Likhons: total contributions, current streak and longest streak">
 </picture>
 </p>
 
