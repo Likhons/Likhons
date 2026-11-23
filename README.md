@@ -1,96 +1,80 @@
-<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
-<a href="https://likhons.vercel.app">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:22d3ee,100:f472b6&height=220&section=header&text=Wazid%20Hasan%20Likhon&fontSize=58&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Full-Stack%20Developer%20%E2%80%A2%20Dhaka%2C%20Bangladesh&descSize=18&descAlignY=58" alt="Wazid Hasan Likhon"/>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Likhons/Likhons/main/assets/header-dark.svg">
+  <img src="https://raw.githubusercontent.com/Likhons/Likhons/main/assets/header-light.svg" width="100%" alt="Wazid Hasan Likhon. CSE graduate, full-stack, AI security. Open to software engineering roles. I build what should exist.">
+</picture>
 
-<!-- ═══════════════════════════ WAVING AVATAR ═══════════════════════════ -->
-<div align="center">
-  <img src="./assets/avatar.svg" width="100%" alt="Character select: Wazid Hasan Likhon waving hello"/>
-</div>
+So far that has meant online stores that take real orders, land records nobody can quietly edit, and APIs that keep the rules on the server. Lately it means AI agent security: stopping agents from acting on instructions hidden in what they read.
 
-<div align="center">
+I've just completed a B.Sc. in Computer Science & Engineering at Daffodil International University, and I'm based in Dhaka, looking for an entry-level software engineering role.
 
-<a href="https://likhons.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=620&lines=I+build+full-stack+web+apps.;I+build+online+stores+that+take+real+orders.;I+build+land+records+nobody+can+quietly+edit.;I+build+APIs+that+keep+the+rules+on+the+server." alt="Typing intro"/>
-</a>
+## Selected work
 
-<br/>
+### LandLock
 
-<a href="https://likhons.vercel.app"><img src="https://img.shields.io/badge/Portfolio-likhons.vercel.app-7c3aed?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-<a href="https://www.linkedin.com/in/likhons/"><img src="https://img.shields.io/badge/LinkedIn-likhons-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:wazidhasan58@gmail.com"><img src="https://img.shields.io/badge/Email-wazidhasan58@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+Stops one plot of land from being sold twice, and keeps a signed record nobody can quietly edit. Built at the LandTech 2026 hackathon at DIU, where I led a team of two.
 
-</div>
+In Bangladesh a land sale passes through two separate offices, and fraud slips into the gap between them. LandLock locks a plot the moment a sale starts and blocks a second sale or mortgage on the same land.
 
-<br/>
+- Twenty sale requests on one plot at the same moment: exactly one goes through.
+- Every land event is chained with SHA-256 and signed with Ed25519, so an edited, deleted or reordered record is detected.
+- Deeds never followed by mutation (namjari) are flagged, and every receipt has a QR code anyone can scan to check it is genuine.
 
-<!-- ═══════════════════════════ TERMINAL INTRO ═══════════════════════════ -->
-<div align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="whoami — Md. Wazid Hasan Likhon, Full-Stack Developer"/>
-</div>
+*React, Vite, Node.js, Express and Node crypto, deployed on Vercel and Render.*<br>
+[Case study](https://likhon.me/work/landlock) · [Live site](https://landlock-flame.vercel.app/)
 
-<br/>
+### WAEZ
 
-<!-- ═══════════════════════════ TECH STACK ═══════════════════════════ -->
-<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" width="34" align="center" alt="toolbox"/> Tech Arsenal</h2>
+An online clothing store I built, with its admin panel, for WAEZ, a Bangladeshi clothing label. Catalog, cart, wishlist and checkout by bKash or cash on delivery, with orders tracked from New to Delivered.
 
-<div align="center">
+- The server fetches prices from the database and ignores any price the browser sends.
+- A bKash Transaction ID can be used only once, to prevent duplicate orders and fraud.
+- Only customers with a delivered order can write a review.
+- Uploaded photos are converted to WebP and stripped of camera and GPS data.
 
-**Frontend**<br/>
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite&theme=dark" alt="Frontend"/>
+*React, React Router, Vite, Node.js, Express, PostgreSQL and JWT, with Cloudinary, Render and Neon.*<br>
+[Case study](https://likhon.me/work/waez) · [Live store](https://waez.onrender.com/) (free hosting, so the first load can be slow)
 
-**Backend & Data**<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,postgres,docker&theme=dark" alt="Backend"/>
+### Also built
 
-**Tools & Cloud**<br/>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,cloudflare&theme=dark" alt="Tools"/>
+- **[AgentShield](https://likhon.me/work/agentshield)**: a runtime security gateway that stops AI agents from acting on hidden instructions in Bangla, Banglish or English. On a real LLM agent, 20 attacks moved money 4 times without it and 0 times with it. [Source](https://github.com/Likhons/AgentShield)
+- **[AlumniLink](https://likhon.me/work/alumnilink)**: connects DIU students with verified alumni for job referrals and one-to-one career mentorship. An independent student project, not an official DIU service.
+- **[STEP Comilla](https://likhon.me/work/step-comilla)**: an online store and shop point of sale for an authorised STEP footwear retailer. The counter and the website sell from one stock, counted per size, so nothing is sold twice.
 
-<sub>➕ JWT · REST APIs · Node crypto · Cloudinary · Render · Neon &nbsp;|&nbsp; 🧠 currently exploring <b>AI & Machine Learning</b></sub>
+## Stack
 
-</div>
+<table>
+  <tr><td>Frontend</td><td>TypeScript, React, Next.js, React Router, Tailwind CSS, Vite</td></tr>
+  <tr><td>Backend</td><td>Node.js, Express, REST APIs, JWT; Python, FastAPI, Pydantic</td></tr>
+  <tr><td>Data</td><td>PostgreSQL, MySQL, SQLite, Prisma</td></tr>
+  <tr><td>AI&nbsp;security</td><td>LLM agents and tool calling, prompt-injection defense, fine-tuning XLM-RoBERTa, Groq and Gemini APIs</td></tr>
+  <tr><td>Tooling</td><td>pytest, Vitest, Playwright, GitHub Actions, Docker, Vercel, Render, Neon</td></tr>
+  <tr><td>Learning</td><td>Machine learning, PyTorch and Transformers</td></tr>
+</table>
 
-<!-- ═══════════════════════════ STATS ═══════════════════════════ -->
-<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="34" align="center" alt="chart"/> Commit Energy</h2>
+## Activity
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Likhons&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=F472B6&currStreakLabel=22D3EE" alt="GitHub streak" width="49%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Likhons&theme=tokyonight" alt="GitHub profile summary" width="100%"/>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Likhons&card_width=880&card_height=180&border_radius=6&disable_animations=true&background=00000000&border=3D444D&stroke=3D444D&ring=73D39B&fire=73D39B&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=F0F6FC&sideLabels=F0F6FC&dates=9198A1">
+  <img src="https://streak-stats.demolab.com/?user=Likhons&card_width=880&card_height=180&border_radius=6&disable_animations=true&background=00000000&border=D1D9E0&stroke=D1D9E0&ring=1F8A4F&fire=1F8A4F&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=1F2328&sideLabels=1F2328&dates=59636E" width="100%" alt="GitHub contribution streak for Likhons: total contributions, current streak and longest streak">
+</picture>
 
-<!-- ═══════════════════════════ SNAKE ═══════════════════════════ -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Likhons/Likhons/output/github-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Likhons/Likhons/output/github-snake.svg"/>
-    <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/Likhons/Likhons/output/github-snake-dark.svg"/>
-  </picture>
-</div>
+## How I got here
 
-<!-- ═══════════════════════════ JOURNEY ═══════════════════════════ -->
-<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="34" align="center" alt="rocket"/> The Journey So Far</h2>
+<table>
+  <tr><td>Now</td><td>Looking for an entry-level software engineering role where I can keep growing and build products people use.</td></tr>
+  <tr><td>2026</td><td>Finished my B.Sc. at DIU, majoring in software development. Led a team of two at the LandTech 2026 hackathon with LandLock, and built the WAEZ store.</td></tr>
+  <tr><td>2025</td><td>Web development, AI and machine learning, through coursework and self-learning.</td></tr>
+  <tr><td>2024</td><td>University projects, and the programming fundamentals behind them.</td></tr>
+  <tr><td>2023</td><td>Started a B.Sc. in Computer Science & Engineering at Daffodil International University.</td></tr>
+</table>
 
-```mermaid
-timeline
-    Started B.Sc. at DIU : Computer Science & Engineering
-    Built the foundations : University projects : Programming fundamentals
-    Explored new tech : Web development : AI & Machine Learning
-    Shipped real products : Led team LandLock @ LandTech 2026 : Built the WAEZ store
-    Now : Open to software development roles 🚀
-```
+## Contact
 
-<!-- ═══════════════════════════ CONNECT ═══════════════════════════ -->
-<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="34" align="center" alt="handshake"/> Let's Build Something Amazing Together</h2>
+Hiring for an entry-level software engineering role, or have a project in mind? Email is the quickest way to reach me.
 
-<div align="center">
+**[wazidhasan58@gmail.com](mailto:wazidhasan58@gmail.com)**<br>
+[likhon.me](https://likhon.me) · [CV](https://likhon.me/download-cv.pdf) · [LinkedIn](https://www.linkedin.com/in/likhons/) · [Facebook](https://www.facebook.com/Wazid.Official1) · [Instagram](https://instagram.com/hasanwazid)
 
-Hiring for a software development role, or have a project in mind? My inbox is open.
+<br>
 
-<a href="https://likhons.vercel.app"><img src="https://img.shields.io/badge/-Portfolio-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/likhons/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:wazidhasan58@gmail.com"><img src="https://img.shields.io/badge/-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://www.facebook.com/Wazid.Official1"><img src="https://img.shields.io/badge/-Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
-<a href="https://instagram.com/hasanwazid"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f472b6,50:22d3ee,100:7c3aed&height=120&section=footer&text=one%20commit%20at%20a%20time&fontSize=22&fontColor=ffffff&fontAlignY=72" alt="footer"/>
+<sub>Building, learning and growing one commit at a time.</sub>
