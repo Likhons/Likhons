@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Likhons/Likhons/main/assets/header-dark.svg">
-  <img src="https://raw.githubusercontent.com/Likhons/Likhons/main/assets/header-light.svg" width="100%" alt="Wazid Hasan Likhon (লিখন). CSE graduate, full-stack, AI security. Open to software engineering roles. I build what should exist, and stop what shouldn't.">
+  <img src="https://raw.githubusercontent.com/Likhons/Likhons/main/assets/header-light.svg" width="100%" alt="Wazid Hasan Likhon. CSE graduate, full-stack, AI security. Open to software engineering roles. I build what should exist, and stop what shouldn't. A cartoon developer waves hello from behind a laptop: hello, world!">
 </picture>
 
 <br>
